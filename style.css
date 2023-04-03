@@ -35,6 +35,10 @@
 .button-tab{
     display: none;
 }
+.modal-sec{
+    width: 1120px;
+    height: 200px
+}
 
 /* Mobile Responsive */
 @media screen and (max-width:767px) {
