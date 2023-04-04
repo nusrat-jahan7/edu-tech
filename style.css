@@ -21,16 +21,22 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
     background: rgba( 0, 0,0,0.7);
     z-index: 1;
 }
+.w-100{
+    height: 100vh;
+}
 .container-hd{
     margin: auto;
-    margin-top: 15vh;
+    margin-top: 10vh;
     width: 25%;
 }
 .container-para{
     width: 50%;
+    margin-bottom: 10vh;
 }
 .button-tab{
     display: none;
@@ -49,14 +55,19 @@
 
 /* Mobile Responsive */
 @media screen and (max-width:767px) {
-    .carousel-item{
-        height: 200px ;
+    .carousel-caption{
+        bottom: 125px;
     }
     .carousel-caption h1{
-        font-size: 1.2rem;
+        font-size: 2rem;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
     }
     .carousel-caption p{
-        display: none;
+        width: 100%;
+        line-height: 1.6;
+        font-size: 1rem;
     }
     .container-hd{
         width: 50%;
@@ -88,6 +99,9 @@
     .modal-s-half{
         justify-content: center;
     }
+    .faq-hd{
+        margin: 5vh;
+    }
     .accordian-container{
         width: 90%;
     }
@@ -98,9 +112,6 @@
 
 /* Tablet Responsive */
 @media screen and (min-width:768px) and (max-width:1023px){
-    .carousel-item{
-        height: 400px ;
-    }
      .carousel-caption h1{
         font-size: 2.5rem;
     }
