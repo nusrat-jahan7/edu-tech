@@ -36,9 +36,16 @@
     display: none;
 }
 .modal-sec{
-    width: 1120px;
-    height: 200px
+    width: 85% ;
+    height: 200px;
 }
+.faq-hd{
+    margin-top: 10vh;
+}
+.accordian-container{
+    width: 50%;
+}
+
 
 /* Mobile Responsive */
 @media screen and (max-width:767px) {
@@ -68,7 +75,28 @@
     .button-tab{
         display: block;
     }
+    .modal-sec{
+        flex-direction: column;
+        text-align: center;
+    }
+    .modal-f-half h2{
+        font-size:1.5rem ;
+    }
+    .modal-f-half p{
+        font-size: 0.9rem;
+    }
+    .modal-s-half{
+        justify-content: center;
+    }
+    .accordian-container{
+        width: 90%;
+    }
+    .Trusted-container{
+        display: none;
+    }
 }
+
+/* Tablet Responsive */
 @media screen and (min-width:768px) and (max-width:1023px){
     .carousel-item{
         height: 400px ;
@@ -98,5 +126,23 @@
     .button-lp{
         display: none;
     }
-
+    .modal-sec{
+        flex-direction: column;
+        text-align: center;
+    }
+    .modal-f-half h2{
+        font-size:1.5rem ;
+    }
+    .modal-f-half p{
+        font-size: 0.9rem;
+    }
+    .modal-s-half{
+        justify-content: center;
+    }
+    .accordian-container{
+        width: 90%;
+    }
+    .Trusted-container{
+        display: none;
+    }
 }
